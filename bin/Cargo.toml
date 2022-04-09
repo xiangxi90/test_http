@@ -1,0 +1,12 @@
+[package]
+name = "bin"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+myhttp = { path = "../myhttp" }
+mythread = {path = "../mythread"}
+
